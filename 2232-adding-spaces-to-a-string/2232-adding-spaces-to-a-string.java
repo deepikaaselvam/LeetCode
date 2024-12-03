@@ -4,25 +4,17 @@ class Solution {
         char[]c=s.toCharArray();
        
         int i=0,j=0;
-        while(i<c.length && j<spaces.length)
+        while(i<c.length )
         {
-            if(i==spaces[j])
+            if(j<spaces.length&& i==spaces[j])
             {
                 result.append(" ");
-                result.append(c[i]);
                 j++;
             }
-            else
-            {
-                result.append(c[i]);
-            }
-            i++;
-        }
-        while(i<c.length)
-        {
             result.append(c[i]);
             i++;
         }
+       
         return result.toString();
         
     }
