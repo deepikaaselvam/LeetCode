@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/deepikaaselvam/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0742-to-lower-case](https://github.com/deepikaaselvam/LeetCode/tree/master/0742-to-lower-case) |
 | [2232-adding-spaces-to-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/deepikaaselvam/LeetCode/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
