@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/deepikaaselvam/LeetCode/tree/master/0053-maximum-subarray) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/deepikaaselvam/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/deepikaaselvam/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2058-concatenation-of-array](https://github.com/deepikaaselvam/LeetCode/tree/master/2058-concatenation-of-array) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/deepikaaselvam/LeetCode/tree/master/0005-longest-palindromic-substring) |
+| [0053-maximum-subarray](https://github.com/deepikaaselvam/LeetCode/tree/master/0053-maximum-subarray) |
 ## Math
 |  |
 | ------- |
@@ -46,4 +48,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/deepikaaselvam/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/deepikaaselvam/LeetCode/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
