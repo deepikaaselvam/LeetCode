@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1950-sign-of-the-product-of-an-array](https://github.com/deepikaaselvam/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2058-concatenation-of-array](https://github.com/deepikaaselvam/LeetCode/tree/master/2058-concatenation-of-array) |
 | [2232-adding-spaces-to-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/deepikaaselvam/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Two Pointers
 |  |
 | ------- |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [2058-concatenation-of-array](https://github.com/deepikaaselvam/LeetCode/tree/master/2058-concatenation-of-array) |
 | [2232-adding-spaces-to-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/deepikaaselvam/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -53,4 +55,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/deepikaaselvam/LeetCode/tree/master/0053-maximum-subarray) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/deepikaaselvam/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 <!---LeetCode Topics End-->
