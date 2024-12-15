@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2232-adding-spaces-to-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/deepikaaselvam/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -67,4 +68,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+## Sliding Window
+|  |
+| ------- |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 <!---LeetCode Topics End-->
