@@ -14,7 +14,7 @@ class Solution {
             carry= (ans)/2;
             i--;j--;
         }
-        answer.reverse();
-        return answer.toString();
+       
+        return answer.reverse().toString();
     }
 }
