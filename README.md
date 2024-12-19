@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/deepikaaselvam/LeetCode/tree/master/0053-maximum-subarray) |
 | [0128-longest-consecutive-sequence](https://github.com/deepikaaselvam/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/deepikaaselvam/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0780-max-chunks-to-make-sorted](https://github.com/deepikaaselvam/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/deepikaaselvam/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/deepikaaselvam/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2058-concatenation-of-array](https://github.com/deepikaaselvam/LeetCode/tree/master/2058-concatenation-of-array) |
@@ -66,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0150-evaluate-reverse-polish-notation](https://github.com/deepikaaselvam/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0780-max-chunks-to-make-sorted](https://github.com/deepikaaselvam/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/deepikaaselvam/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Divide and Conquer
 |  |
@@ -81,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0780-max-chunks-to-make-sorted](https://github.com/deepikaaselvam/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Sliding Window
 |  |
@@ -93,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0780-max-chunks-to-make-sorted](https://github.com/deepikaaselvam/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [2300-construct-string-with-repeat-limit](https://github.com/deepikaaselvam/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
 ## Counting
 |  |
@@ -105,5 +109,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Monotonic Stack
 |  |
 | ------- |
+| [0780-max-chunks-to-make-sorted](https://github.com/deepikaaselvam/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/deepikaaselvam/LeetCode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 <!---LeetCode Topics End-->
