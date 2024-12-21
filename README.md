@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/deepikaaselvam/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/deepikaaselvam/LeetCode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2751-sliding-subarray-beauty](https://github.com/deepikaaselvam/LeetCode/tree/master/2751-sliding-subarray-beauty) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Two Pointers
@@ -65,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2300-construct-string-with-repeat-limit](https://github.com/deepikaaselvam/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/deepikaaselvam/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2751-sliding-subarray-beauty](https://github.com/deepikaaselvam/LeetCode/tree/master/2751-sliding-subarray-beauty) |
 ## Stack
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/deepikaaselvam/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2751-sliding-subarray-beauty](https://github.com/deepikaaselvam/LeetCode/tree/master/2751-sliding-subarray-beauty) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Bit Manipulation
 |  |
