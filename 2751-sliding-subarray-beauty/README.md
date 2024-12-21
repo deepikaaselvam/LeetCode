@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/sliding-subarray-beauty">2751. Sliding Subarray Beauty</a></h2><h3>Medium</h3><hr><p>Given an integer array <code>nums</code> containing <code>n</code> integers, find the <strong>beauty</strong> of each subarray of size <code>k</code>.</p>
+<h2><a href="https://leetcode.com/problems/sliding-subarray-beauty">Sliding Subarray Beauty</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an integer array <code>nums</code> containing <code>n</code> integers, find the <strong>beauty</strong> of each subarray of size <code>k</code>.</p>
 
 <p>The <strong>beauty</strong> of a subarray is the <code>x<sup>th</sup></code><strong> smallest integer </strong>in the subarray if it is <strong>negative</strong>, or <code>0</code> if there are fewer than <code>x</code> negative integers.</p>
 
