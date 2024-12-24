@@ -14,7 +14,9 @@ class Solution {
         for(j=k;j<nums.length;j++)
         {
           
-            sum = sum - nums[j-k] + nums[j];
+            sum = sum - nums[i];
+            i++;
+            sum+=nums[j];
           
             avg= Math.max(avg,(double)(sum/k));
         }
