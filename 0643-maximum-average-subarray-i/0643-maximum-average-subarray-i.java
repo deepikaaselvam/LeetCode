@@ -7,10 +7,8 @@ class Solution {
         for(j=0;j<k;j++)
         {
             sum+=nums[j];
-            
-         
         }
-        avg = (double) (sum/k);
+        avg = (sum/k);
         for(j=k;j<nums.length;j++)
         {
           
@@ -18,7 +16,7 @@ class Solution {
             i++;
             sum+=nums[j];
           
-            avg= Math.max(avg,(double)(sum/k));
+            avg= Math.max(avg,(sum/k));
         }
         return avg;
        
