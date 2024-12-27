@@ -2,9 +2,10 @@ class Solution {
     public boolean isValid(String qns) {
          Stack<Character>st = new Stack<>();
         int i=0;
+        char[]characterArray = qns.toCharArray();
         while(i<qns.length())
         {
-            if(qns.charAt(i)=='(' || qns.charAt(i)=='[' || qns.charAt(i)=='{')
+            if(characterArray[i]=='(' || characterArray[i]=='[' || characterArray[i]=='{')
             {
                 st.push(qns.charAt(i));
             }
@@ -15,7 +16,7 @@ class Solution {
                     return false;
                 }
                 char c=st.pop();
-                if(( qns.charAt(i)==')'&&c!='(' )||(qns.charAt(i)==']'&& c!='[' )||(qns.charAt(i)=='}' &&c!='{'))
+                if(( characterArray[i]==')'&&c!='(' )||(characterArray[i]==']'&& c!='[' )||(characterArray[i]=='}' &&c!='{'))
                 {
                     return false;
                 }
