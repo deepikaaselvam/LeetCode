@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/deepikaaselvam/LeetCode/tree/master/0290-word-pattern) |
 | [0316-remove-duplicate-letters](https://github.com/deepikaaselvam/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0742-to-lower-case](https://github.com/deepikaaselvam/LeetCode/tree/master/0742-to-lower-case) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2232-adding-spaces-to-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/deepikaaselvam/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -130,4 +131,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/deepikaaselvam/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
+## Prefix Sum
+|  |
+| ------- |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 <!---LeetCode Topics End-->
