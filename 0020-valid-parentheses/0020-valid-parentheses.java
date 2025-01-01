@@ -1,6 +1,7 @@
 class Solution {
     public boolean isValid(String qns) {
-         Stack<Character>st = new Stack<>();
+        
+        Stack<Character>st = new Stack<>();
         int i=0;
         char[]characterArray = qns.toCharArray();
         while(i<qns.length())
@@ -28,7 +29,6 @@ class Solution {
         
         
         return st.isEmpty();
-        
         
     }
 }
