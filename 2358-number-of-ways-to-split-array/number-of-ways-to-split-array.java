@@ -2,11 +2,11 @@ class Solution {
     public int waysToSplitArray(int[] array) {
          long[]prefixSum=new long[array.length];
         int cnt=0;
-        long sum=0;
-        for(int i=0;i<array.length;i++)
+        prefixSum[0]=array[0];
+        for(int i=1;i<array.length;i++)
         {
-            sum+=array[i];
-            prefixSum[i]=sum;
+          
+            prefixSum[i]=prefixSum[i-1]+array[i];
         }
         int l=0;
         while(l<array.length-1)
