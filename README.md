@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0316-remove-duplicate-letters](https://github.com/deepikaaselvam/LeetCode/tree/master/0316-remove-duplicate-letters) |
 | [0742-to-lower-case](https://github.com/deepikaaselvam/LeetCode/tree/master/0742-to-lower-case) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/deepikaaselvam/LeetCode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2232-adding-spaces-to-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/deepikaaselvam/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2414-move-pieces-to-obtain-a-string) |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0643-maximum-average-subarray-i) |
+| [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/deepikaaselvam/LeetCode/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/deepikaaselvam/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2751-sliding-subarray-beauty](https://github.com/deepikaaselvam/LeetCode/tree/master/2751-sliding-subarray-beauty) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
