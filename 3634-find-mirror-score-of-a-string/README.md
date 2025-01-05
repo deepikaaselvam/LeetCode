@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/find-mirror-score-of-a-string">3634. Find Mirror Score of a String</a></h2><h3>Medium</h3><hr><p>You are given a string <code>s</code>.</p>
+<h2><a href="https://leetcode.com/problems/find-mirror-score-of-a-string">Find Mirror Score of a String</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>You are given a string <code>s</code>.</p>
 
 <p>We define the <strong>mirror</strong> of a letter in the English alphabet as its corresponding letter when the alphabet is reversed. For example, the mirror of <code>&#39;a&#39;</code> is <code>&#39;z&#39;</code>, and the mirror of <code>&#39;y&#39;</code> is <code>&#39;b&#39;</code>.</p>
 
