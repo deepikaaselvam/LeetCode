@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/deepikaaselvam/LeetCode/tree/master/0001-two-sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/deepikaaselvam/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0053-maximum-subarray](https://github.com/deepikaaselvam/LeetCode/tree/master/0053-maximum-subarray) |
 | [0128-longest-consecutive-sequence](https://github.com/deepikaaselvam/LeetCode/tree/master/0128-longest-consecutive-sequence) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/deepikaaselvam/LeetCode/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/deepikaaselvam/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0290-word-pattern](https://github.com/deepikaaselvam/LeetCode/tree/master/0290-word-pattern) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/deepikaaselvam/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
