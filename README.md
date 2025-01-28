@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/deepikaaselvam/LeetCode/tree/master/0067-add-binary) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/deepikaaselvam/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0258-add-digits](https://github.com/deepikaaselvam/LeetCode/tree/master/0258-add-digits) |
+| [0441-arranging-coins](https://github.com/deepikaaselvam/LeetCode/tree/master/0441-arranging-coins) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/deepikaaselvam/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2491-smallest-even-multiple](https://github.com/deepikaaselvam/LeetCode/tree/master/2491-smallest-even-multiple) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -156,6 +157,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/deepikaaselvam/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0441-arranging-coins](https://github.com/deepikaaselvam/LeetCode/tree/master/0441-arranging-coins) |
 ## Prefix Sum
 |  |
 | ------- |
