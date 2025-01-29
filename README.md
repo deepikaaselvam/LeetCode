@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/deepikaaselvam/LeetCode/tree/master/0258-add-digits) |
 | [0441-arranging-coins](https://github.com/deepikaaselvam/LeetCode/tree/master/0441-arranging-coins) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/deepikaaselvam/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
+| [2083-three-divisors](https://github.com/deepikaaselvam/LeetCode/tree/master/2083-three-divisors) |
 | [2491-smallest-even-multiple](https://github.com/deepikaaselvam/LeetCode/tree/master/2491-smallest-even-multiple) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Hash Table
@@ -188,5 +189,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/deepikaaselvam/LeetCode/tree/master/0258-add-digits) |
+| [2083-three-divisors](https://github.com/deepikaaselvam/LeetCode/tree/master/2083-three-divisors) |
 | [2491-smallest-even-multiple](https://github.com/deepikaaselvam/LeetCode/tree/master/2491-smallest-even-multiple) |
+## Enumeration
+|  |
+| ------- |
+| [2083-three-divisors](https://github.com/deepikaaselvam/LeetCode/tree/master/2083-three-divisors) |
 <!---LeetCode Topics End-->
