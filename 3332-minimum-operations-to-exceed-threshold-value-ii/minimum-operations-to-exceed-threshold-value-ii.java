@@ -11,7 +11,7 @@ class Solution {
         {
             long x = minHeap.remove();
             long y = minHeap.remove();
-            minHeap.add((long)Math.min(x,y)*2 + (long)Math.max(x,y));
+            minHeap.add(x*2+y);
 
             numOfOperations++;
         }
