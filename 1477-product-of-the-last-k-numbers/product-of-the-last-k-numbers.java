@@ -8,15 +8,15 @@ class ProductOfNumbers {
     }
     
     public void add(int num) {
-        if(num==0)
-        {
-            this.list = new ArrayList<>();
-            this.list.add(1); 
-        }
-        else
-        {
+        // if(num==0)
+        // {
+        //     this.list = new ArrayList<>();
+        //     this.list.add(1); 
+        // }
+        // else
+        // {
              this.list.add(num);
-        }
+        
        
 
 
