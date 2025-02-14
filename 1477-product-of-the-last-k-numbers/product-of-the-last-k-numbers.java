@@ -8,19 +8,15 @@ class ProductOfNumbers {
     }
     
     public void add(int num) {
-        // if(num==0)
-        // {
-        //     this.list = new ArrayList<>();
-        //     this.list.add(1); 
-        // }
-        // else
-        // {
-             this.list.add(num);
-        
-       
-
-
-        
+        if(num==0)
+        {
+            this.list = new ArrayList<>();
+            this.list.add(1); 
+        }
+        else
+        {
+             this.list.add(list.get(list.size()-1)*num);
+        }
     }
     
     public int getProduct(int k) {
@@ -28,16 +24,20 @@ class ProductOfNumbers {
         {
             return 0;
         }
-        int cnt=0;
-        int prdt = 1;
-        int i=list.size()-1;
-        while(i>=0 && cnt<k)
+        else
         {
-            prdt *= list.get(i);
-            cnt++;
-            i--;
+            return (list.get(list.size()-1)/(list.get(list.size()-1-k)));
         }
-        return prdt;
+        // int cnt=0;
+        // int prdt = 1;
+        // int i=list.size()-1;
+        // while(i>=0 && cnt<k)
+        // {
+        //     prdt *= list.get(i);
+        //     cnt++;
+        //     i--;
+        // }
+        // return prdt;
         
     }
 }
