@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/deepikaaselvam/LeetCode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/deepikaaselvam/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/deepikaaselvam/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0643-maximum-average-subarray-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0780-max-chunks-to-make-sorted](https://github.com/deepikaaselvam/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1477-product-of-the-last-k-numbers](https://github.com/deepikaaselvam/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/deepikaaselvam/LeetCode/tree/master/0067-add-binary) |
 | [0258-add-digits](https://github.com/deepikaaselvam/LeetCode/tree/master/0258-add-digits) |
+| [0498-diagonal-traverse](https://github.com/deepikaaselvam/LeetCode/tree/master/0498-diagonal-traverse) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/deepikaaselvam/LeetCode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2058-concatenation-of-array](https://github.com/deepikaaselvam/LeetCode/tree/master/2058-concatenation-of-array) |
 | [2232-adding-spaces-to-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/2232-adding-spaces-to-a-string) |
@@ -253,4 +255,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/deepikaaselvam/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+## Matrix
+|  |
+| ------- |
+| [0498-diagonal-traverse](https://github.com/deepikaaselvam/LeetCode/tree/master/0498-diagonal-traverse) |
 <!---LeetCode Topics End-->
