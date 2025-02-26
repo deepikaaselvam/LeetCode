@@ -1,6 +1,6 @@
 class Solution {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
-        List<List<Integer>> answer = new ArrayList<>();
+        // List<List<Integer>> answer = new ArrayList<>();
         HashSet<Integer>set1= new HashSet<>();
         HashSet<Integer>set2= new HashSet<>();
         for(int number1:nums1)
@@ -15,16 +15,16 @@ class Solution {
             {
                 list1.add(ans1);
             }
-        answer.add(list1);
+        // answer.add(list1);
         for(int ans2:set2)
             if(!set1.contains(ans2))
             {
                 list2.add(ans2);
             }
-        answer.add(list2);
+        // answer.add(list2);
 
 
-        return answer;
+        return Arrays.asList(list1,list2);
     
         
         
