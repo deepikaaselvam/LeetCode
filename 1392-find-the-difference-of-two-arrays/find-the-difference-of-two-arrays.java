@@ -1,10 +1,40 @@
 class Solution {
     public List<List<Integer>> findDifference(int[] nums1, int[] nums2) {
-        HashMap<Integer,Integer>mpp1 = new HashMap<>();
+        List<List<Integer>> answer = new ArrayList<>();
+        HashSet<Integer>set1= new HashSet<>();
+        HashSet<Integer>set2= new HashSet<>();
+        for(int number1:nums1)
+            set1.add(number1);
+          for(int number2:nums2)
+            set2.add(number2);
+
+        List<Integer>list1 = new ArrayList<>();
+        List<Integer>list2 = new ArrayList<>();
+        for(int ans1:set1)
+            if(!set2.contains(ans1))
+            {
+                list1.add(ans1);
+            }
+        answer.add(list1);
+        for(int ans2:set2)
+            if(!set1.contains(ans2))
+            {
+                list2.add(ans2);
+            }
+        answer.add(list2);
+
+
+        return answer;
+    
+        
+        
+    }
+}
+/*
+ HashMap<Integer,Integer>mpp1 = new HashMap<>();
         HashMap<Integer,Integer>mpp2 = new HashMap<>();
         List<List<Integer>>answer = new ArrayList<>();
-        // int cnt1=0;
-        // int cnt2=0;
+       
         for(int i=0;i<nums1.length;i++)
         {
             mpp1.put(nums1[i],mpp1.getOrDefault(nums1[i],0)+1);
@@ -34,7 +64,4 @@ class Solution {
         }
         answer.add(subList2);
         return answer;
-        
-        
-    }
-}
+        */
