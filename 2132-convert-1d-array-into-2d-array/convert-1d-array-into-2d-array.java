@@ -3,16 +3,16 @@ class Solution {
         int[][]TwoDArray = new int[m][n];
         if(original.length !=(m*n))
         {
-            return new int[][]{};
+            return new int[0][0];
         }
-        int OriginalArrayIndex=0;
+        // int OriginalArrayIndex=0;
         int row,col;
         for(row=0;row<m;row+=1)
         {
             for(col=0;col<n;col+=1)
             {
-                TwoDArray[row][col]=original[OriginalArrayIndex];
-                OriginalArrayIndex+=1;
+                TwoDArray[row][col]=original[row*n+col];
+                // OriginalArrayIndex+=1;
             }
         }
         return TwoDArray;
