@@ -3,7 +3,7 @@ class Solution {
         int[][]TwoDArray = new int[m][n];
         if(original.length !=(m*n))
         {
-            return new int[][]{};
+            return new int[0][0];
         }
         // int OriginalArrayIndex=0;
         int row,col;
