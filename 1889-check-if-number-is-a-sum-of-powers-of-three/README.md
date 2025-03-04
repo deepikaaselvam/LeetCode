@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three">1889. Check if Number is a Sum of Powers of Three</a></h2><h3>Medium</h3><hr><p>Given an integer <code>n</code>, return <code>true</code> <em>if it is possible to represent </em><code>n</code><em> as the sum of distinct powers of three.</em> Otherwise, return <code>false</code>.</p>
+<h2><a href="https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three">Check if Number is a Sum of Powers of Three</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an integer <code>n</code>, return <code>true</code> <em>if it is possible to represent </em><code>n</code><em> as the sum of distinct powers of three.</em> Otherwise, return <code>false</code>.</p>
 
 <p>An integer <code>y</code> is a power of three if there exists an integer <code>x</code> such that <code>y == 3<sup>x</sup></code>.</p>
 
