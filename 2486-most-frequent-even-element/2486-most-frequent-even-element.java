@@ -9,7 +9,7 @@ class Solution {
             answer[nums[index]]+=1;}
         }
         int maxi =0;
-        
+        int cnt =0;
         int safe =0;boolean flag =false;
         for(int index =0;index<answer.length;index+=1)
         {
@@ -21,6 +21,11 @@ class Solution {
                 flag =true;
 
             }
+            // cnt+=1;
+            // if(cnt == nums.length)
+            // {
+            //     break;
+            // }
            
         }
             
