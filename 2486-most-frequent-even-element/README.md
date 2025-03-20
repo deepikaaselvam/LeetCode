@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/most-frequent-even-element">2486. Most Frequent Even Element</a></h2><h3>Easy</h3><hr><p>Given an integer array <code>nums</code>, return <em>the most frequent even element</em>.</p>
+<h2><a href="https://leetcode.com/problems/most-frequent-even-element">Most Frequent Even Element</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Given an integer array <code>nums</code>, return <em>the most frequent even element</em>.</p>
 
 <p>If there is a tie, return the <strong>smallest</strong> one. If there is no such element, return <code>-1</code>.</p>
 
