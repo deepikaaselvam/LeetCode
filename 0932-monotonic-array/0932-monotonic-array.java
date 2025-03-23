@@ -7,6 +7,10 @@ class Solution {
             if(nums[index]>=nums[index+1])
                cnt1+=1;
         }
+        if(cnt1==nums.length)
+        {
+            return true;
+        }
         if(cnt1!=nums.length)
         {
             for(int index2=0;index2<nums.length-1;index2+=1)
@@ -16,7 +20,7 @@ class Solution {
             }
         }
       
-        if(cnt1==nums.length || cnt2==nums.length)
+        if(cnt2==nums.length)
         {
             return true;
         }
