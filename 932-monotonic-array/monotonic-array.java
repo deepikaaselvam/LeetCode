@@ -1,5 +1,30 @@
 class Solution {
     public boolean isMonotonic(int[] nums) {
+        if(nums[0]<nums[nums.length-1])
+        {
+            for(int index =0;index<nums.length-1;index+=1)
+            {
+                if(nums[index]>nums[index+1])
+                {
+                    return false;
+                }
+            }
+        }
+        else{
+            for(int index =0;index<nums.length-1;index+=1)
+            {
+                if(nums[index]<nums[index+1])
+                {
+                    return false;
+                }
+            }
+        }
+        return true;
+
+
+
+
+/*
         int cnt1=1;
         int cnt2=1;
         for(int index =0;index<nums.length-1 ;index+=1)
@@ -24,7 +49,7 @@ class Solution {
         {
             return true;
         }
-        return false;
+        return false; */
         
     }
 }
