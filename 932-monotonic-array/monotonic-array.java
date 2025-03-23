@@ -7,11 +7,15 @@ class Solution {
             if(nums[index]>=nums[index+1])
                cnt1+=1;
         }
-       for(int index2=0;index2<nums.length-1;index2+=1)
+        if(cnt1!=nums.length)
         {
-            if(nums[index2]<=nums[index2+1])
-               cnt2+=1;
+            for(int index2=0;index2<nums.length-1;index2+=1)
+            {
+                if(nums[index2]<=nums[index2+1])
+                cnt2+=1;
+            }
         }
+      
         if(cnt1==nums.length || cnt2==nums.length)
         {
             return true;
