@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0342-power-of-four](https://github.com/deepikaaselvam/LeetCode/tree/master/0342-power-of-four) |
 | [0441-arranging-coins](https://github.com/deepikaaselvam/LeetCode/tree/master/0441-arranging-coins) |
 | [1477-product-of-the-last-k-numbers](https://github.com/deepikaaselvam/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
+| [1674-minimum-operations-to-make-array-equal](https://github.com/deepikaaselvam/LeetCode/tree/master/1674-minimum-operations-to-make-array-equal) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/deepikaaselvam/LeetCode/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/deepikaaselvam/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2083-three-divisors](https://github.com/deepikaaselvam/LeetCode/tree/master/2083-three-divisors) |
