@@ -1,6 +1,31 @@
 class Solution {
     public int pivotIndex(int[] nums) {
-        int [] prefixSum = new int[nums.length];
+        int leftSum = 0;
+        int rightSum = 0;
+        for(int index:nums)
+        {
+            rightSum +=index;
+        }
+        for(int index =0;index<nums.length;index+=1)
+        {
+            int value = nums[index];
+            rightSum-=value;
+            if(leftSum==rightSum)
+            {
+                return index;
+            }
+            leftSum+=value;
+        }
+     
+        return -1;
+
+        
+    }
+}
+
+
+/*
+   int [] prefixSum = new int[nums.length];
         int [] suffixSum = new int[nums.length];
         prefixSum[0]=0;
         suffixSum[nums.length-1]=0;
@@ -19,8 +44,4 @@ class Solution {
                 return ind2;
             }
         }
-        return -1;
-
-        
-    }
-}
+ */
