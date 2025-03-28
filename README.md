@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/deepikaaselvam/LeetCode/tree/master/0498-diagonal-traverse) |
 | [0643-maximum-average-subarray-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0643-maximum-average-subarray-i) |
+| [0724-find-pivot-index](https://github.com/deepikaaselvam/LeetCode/tree/master/0724-find-pivot-index) |
 | [0780-max-chunks-to-make-sorted](https://github.com/deepikaaselvam/LeetCode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0932-monotonic-array](https://github.com/deepikaaselvam/LeetCode/tree/master/0932-monotonic-array) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/deepikaaselvam/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -242,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0724-find-pivot-index](https://github.com/deepikaaselvam/LeetCode/tree/master/0724-find-pivot-index) |
 | [1477-product-of-the-last-k-numbers](https://github.com/deepikaaselvam/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/deepikaaselvam/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
