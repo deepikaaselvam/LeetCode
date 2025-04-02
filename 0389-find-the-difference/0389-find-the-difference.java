@@ -1,6 +1,42 @@
 class Solution {
     public char findTheDifference(String s, String t) {
-        for(int index =0;index<s.length();index+=1)
+        int index1 =0;
+        int index2=0;
+        int[]check = new int[26];
+       for(int index =0;index<t.length();index+=1)
+       {
+    
+            if(index1<s.length())
+            {
+                check[s.charAt(index1)-97]++;
+                index1+=1;
+            }
+            if(index<t.length())
+            {
+                check[t.charAt(index2)-97]--;
+                index2+=1;
+
+            }
+       }
+        int flag=0;
+        for(int ind =0;ind<check.length;ind+=1)
+        {
+            if(check[ind]!=0)
+            {
+               flag =ind;
+               break;
+            }
+        }
+    return (char)(flag+97);
+
+       
+       
+        
+    }
+}
+
+
+/* for(int index =0;index<s.length();index+=1)
         {
             if(s.charAt(index)!=t.charAt(index))
             {
@@ -8,10 +44,7 @@ class Solution {
             }
         }
         return t.charAt(t.length()-1);
-       
-        
-    }
-}
+        */
 /* int maximumLength =Math.max(s.length(),t.length());
         int[]check = new int[26];
         int flag =0;
