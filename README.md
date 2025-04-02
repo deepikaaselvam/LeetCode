@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/deepikaaselvam/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2751-sliding-subarray-beauty](https://github.com/deepikaaselvam/LeetCode/tree/master/2751-sliding-subarray-beauty) |
+| [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3227-find-missing-and-repeated-values](https://github.com/deepikaaselvam/LeetCode/tree/master/3227-find-missing-and-repeated-values) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3332-minimum-operations-to-exceed-threshold-value-ii](https://github.com/deepikaaselvam/LeetCode/tree/master/3332-minimum-operations-to-exceed-threshold-value-ii) |
