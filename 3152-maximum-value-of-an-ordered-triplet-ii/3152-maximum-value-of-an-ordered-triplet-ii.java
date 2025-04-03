@@ -1,7 +1,31 @@
 class Solution {
     public long maximumTripletValue(int[] nums) {
-        //leftMax =x
-      int leftMax[] = new int[nums.length];
+            //inituition is to get the Maximum Value ;
+            long maximum =Long.MIN_VALUE;
+            long difference =0;
+            long product =0;
+            for(int num:nums)
+            {
+                maximum =Math.max(maximum,num);
+                if(num>=2)
+                {
+                    product =Math.max(product,difference *num);
+                }
+                if(num>=1)
+                {
+                    difference =Math.max(difference,maximum-num);
+                }
+             
+
+            }
+            return product >0?product:0;
+
+     
+    }
+}
+
+/*
+ int leftMax[] = new int[nums.length];
       leftMax[0]=0;
         //rightMax=z
       int rightMax[] = new int[nums.length];
@@ -41,6 +65,4 @@ class Solution {
       }
       return maximum_Triplet;
 
-        
-    }
-}
+        */
