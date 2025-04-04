@@ -1,6 +1,12 @@
 class Solution {
     public int countOdds(int low, int high) {
-        if(low==high && low%2==0 && high%2==0)
+        
+        return((low%2==0 &&high%2!=0)||(low%2!=0  && high%2!=0))?((high/2)-(low/2)+1):((high/2)-(low/2));
+      
+        
+    }
+}
+ /* if(low==high && low%2==0 && high%2==0)
         {
             return 0;
         }
@@ -60,7 +66,4 @@ class Solution {
                 cnt+=2;
             }
         }
-        return cnt;
-        
-    }
-}
+        return cnt;  */
