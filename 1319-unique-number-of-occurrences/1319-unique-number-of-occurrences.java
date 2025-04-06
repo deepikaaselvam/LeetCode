@@ -7,10 +7,7 @@ class Solution {
         
             mpp.put(arr[index],mpp.getOrDefault(arr[index],0)+1);
         }
-        for(int inde =0;inde<mpp.size();inde+=1)
-        {
-            System.out.println(mpp);
-        }
+       
         HashSet<Integer>freqSet = new HashSet<>();
         for(int value :mpp.values())
         {
