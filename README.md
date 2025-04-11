@@ -34,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1584-average-salary-excluding-the-minimum-and-maximum-salary](https://github.com/deepikaaselvam/LeetCode/tree/master/1584-average-salary-excluding-the-minimum-and-maximum-salary) |
 | [1626-can-make-arithmetic-progression-from-sequence](https://github.com/deepikaaselvam/LeetCode/tree/master/1626-can-make-arithmetic-progression-from-sequence) |
 | [1833-find-the-highest-altitude](https://github.com/deepikaaselvam/LeetCode/tree/master/1833-find-the-highest-altitude) |
+| [1848-sum-of-unique-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/1848-sum-of-unique-elements) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/deepikaaselvam/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/deepikaaselvam/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1950-sign-of-the-product-of-an-array](https://github.com/deepikaaselvam/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1319-unique-number-of-occurrences](https://github.com/deepikaaselvam/LeetCode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/deepikaaselvam/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1848-sum-of-unique-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/1848-sum-of-unique-elements) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/deepikaaselvam/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/deepikaaselvam/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2300-construct-string-with-repeat-limit](https://github.com/deepikaaselvam/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [1848-sum-of-unique-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/1848-sum-of-unique-elements) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/deepikaaselvam/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2300-construct-string-with-repeat-limit](https://github.com/deepikaaselvam/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2308-divide-array-into-equal-pairs](https://github.com/deepikaaselvam/LeetCode/tree/master/2308-divide-array-into-equal-pairs) |
