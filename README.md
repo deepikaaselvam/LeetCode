@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/deepikaaselvam/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/deepikaaselvam/LeetCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/deepikaaselvam/LeetCode/tree/master/0070-climbing-stairs) |
+| [0338-counting-bits](https://github.com/deepikaaselvam/LeetCode/tree/master/0338-counting-bits) |
 | [0416-partition-equal-subset-sum](https://github.com/deepikaaselvam/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [2262-solving-questions-with-brainpower](https://github.com/deepikaaselvam/LeetCode/tree/master/2262-solving-questions-with-brainpower) |
 ## Math
@@ -239,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0067-add-binary](https://github.com/deepikaaselvam/LeetCode/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/deepikaaselvam/LeetCode/tree/master/0231-power-of-two) |
+| [0338-counting-bits](https://github.com/deepikaaselvam/LeetCode/tree/master/0338-counting-bits) |
 | [0342-power-of-four](https://github.com/deepikaaselvam/LeetCode/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/deepikaaselvam/LeetCode/tree/master/0389-find-the-difference) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/deepikaaselvam/LeetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
