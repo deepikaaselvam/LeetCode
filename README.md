@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0416-partition-equal-subset-sum](https://github.com/deepikaaselvam/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0496-next-greater-element-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0498-diagonal-traverse](https://github.com/deepikaaselvam/LeetCode/tree/master/0498-diagonal-traverse) |
+| [0560-subarray-sum-equals-k](https://github.com/deepikaaselvam/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0643-maximum-average-subarray-i) |
 | [0682-baseball-game](https://github.com/deepikaaselvam/LeetCode/tree/master/0682-baseball-game) |
 | [0724-find-pivot-index](https://github.com/deepikaaselvam/LeetCode/tree/master/0724-find-pivot-index) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0290-word-pattern](https://github.com/deepikaaselvam/LeetCode/tree/master/0290-word-pattern) |
 | [0389-find-the-difference](https://github.com/deepikaaselvam/LeetCode/tree/master/0389-find-the-difference) |
 | [0496-next-greater-element-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0560-subarray-sum-equals-k](https://github.com/deepikaaselvam/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1319-unique-number-of-occurrences](https://github.com/deepikaaselvam/LeetCode/tree/master/1319-unique-number-of-occurrences) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/deepikaaselvam/LeetCode/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1848-sum-of-unique-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/1848-sum-of-unique-elements) |
@@ -289,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/deepikaaselvam/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/deepikaaselvam/LeetCode/tree/master/0724-find-pivot-index) |
 | [1477-product-of-the-last-k-numbers](https://github.com/deepikaaselvam/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
