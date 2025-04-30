@@ -18,7 +18,7 @@ class Solution {
             {
                 count+=getDivisiblePairs(mpp.get(nums[ind]),ind,k);
             }
-            mpp.computeIfAbsent(nums[ind],x->new ArrayList<>()).add(ind);
+            mpp.computeIfAbsent(nums[ind],xval->new ArrayList<>()).add(ind);
         }
         return count;
        
