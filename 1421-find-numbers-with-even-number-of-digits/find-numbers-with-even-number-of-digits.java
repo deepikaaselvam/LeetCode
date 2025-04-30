@@ -1,11 +1,11 @@
 class Solution {
     public int findNumbers(int[] nums) {
         int evenDigit =0;
-        for(int index =0;index<nums.length;index+=1)
+        for(int number:nums)
         {
-            if((nums[index]>9&&nums[index]<100)||
-            (nums[index]>999 && nums[index]<10000)||
-            (nums[index]==100000))
+            if((number>9&&number<100)||
+            (number>999 && number<10000)||
+            (number==100000))
             {
                 evenDigit+=1;
             }
