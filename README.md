@@ -100,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0179-largest-number](https://github.com/deepikaaselvam/LeetCode/tree/master/0179-largest-number) |
 | [0290-word-pattern](https://github.com/deepikaaselvam/LeetCode/tree/master/0290-word-pattern) |
 | [0316-remove-duplicate-letters](https://github.com/deepikaaselvam/LeetCode/tree/master/0316-remove-duplicate-letters) |
+| [0387-first-unique-character-in-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/deepikaaselvam/LeetCode/tree/master/0389-find-the-difference) |
 | [0742-to-lower-case](https://github.com/deepikaaselvam/LeetCode/tree/master/0742-to-lower-case) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/deepikaaselvam/LeetCode/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/deepikaaselvam/LeetCode/tree/master/0001-two-sum) |
 | [0128-longest-consecutive-sequence](https://github.com/deepikaaselvam/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0290-word-pattern](https://github.com/deepikaaselvam/LeetCode/tree/master/0290-word-pattern) |
+| [0387-first-unique-character-in-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/deepikaaselvam/LeetCode/tree/master/0389-find-the-difference) |
 | [0496-next-greater-element-i](https://github.com/deepikaaselvam/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/deepikaaselvam/LeetCode/tree/master/0560-subarray-sum-equals-k) |
@@ -270,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [1848-sum-of-unique-elements](https://github.com/deepikaaselvam/LeetCode/tree/master/1848-sum-of-unique-elements) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/deepikaaselvam/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2300-construct-string-with-repeat-limit](https://github.com/deepikaaselvam/LeetCode/tree/master/2300-construct-string-with-repeat-limit) |
@@ -385,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0387-first-unique-character-in-a-string](https://github.com/deepikaaselvam/LeetCode/tree/master/0387-first-unique-character-in-a-string) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/deepikaaselvam/LeetCode/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/deepikaaselvam/LeetCode/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Memoization
