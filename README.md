@@ -414,5 +414,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0175-combine-two-tables](https://github.com/deepikaaselvam/LeetCode/tree/master/0175-combine-two-tables) |
 | [0596-classes-more-than-5-students](https://github.com/deepikaaselvam/LeetCode/tree/master/0596-classes-more-than-5-students) |
 <!---LeetCode Topics End-->
