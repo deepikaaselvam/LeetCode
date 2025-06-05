@@ -43,7 +43,7 @@ class Solution {
                      }
 
                    }
-                   result = result % 1_000_000_007;
+                   result = result % 1000000007;
         
                 }
                
