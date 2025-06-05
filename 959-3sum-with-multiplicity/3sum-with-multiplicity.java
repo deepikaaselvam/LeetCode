@@ -7,11 +7,14 @@ class Solution {
             mpp.put(numss,mpp.getOrDefault(numss,0l)+1);
         }
         System.out.println(mpp.size());
-        ArrayList<Integer>list = new ArrayList<>();
-        for(Integer ind : mpp.keySet())
+        ArrayList<Integer>list = new ArrayList<>(mpp.keySet());
+        Collections.sort(list);
+        for(int i =0 ;i<list.size();i+=1)
         {
-            for(Integer jind : mpp.keySet())
+            Integer ind = list.get(i);
+            for(int j =i;j<list.size();j+=1)
             {
+                Integer jind = list.get(j);
                
              
                 int Kind = target -(ind+jind);
@@ -22,15 +25,15 @@ class Solution {
                      long val1= mpp.get(ind);
                     long val2= mpp.get(jind);
                     long val3= mpp.get(Kind);
-                     if(ind.equals(jind) && jind==Kind)
+                     if(ind.equals(jind) && jind.equals(Kind))
                      {
                         result+=(val1 *(val1-1)*(val1-2))/6;
                      }
-                     else if(ind.equals(jind) && jind!=Kind)
+                     else if(ind.equals(jind) && !jind.equals(Kind))
                      {
                         result +=(val1*(val1-1))/2*(val3);
                      }
-                      else if(ind <jind && jind==Kind)
+                      else if(ind <jind && jind.equals(Kind))
                      {
                         result +=(val1)*(val2 *(val2-1))/2;
                      }
@@ -40,11 +43,13 @@ class Solution {
                      }
 
                    }
-               }
-           }
-           result =result% 1_000_000_007;
-
-        return (int) result;
+                   result = result % 1_000_000_007;
+        
+                }
+               
+                
+            }
+            return (int) result;
 
         // HashMap<Integer,Integer>mpp = new HashMap<>();
         // int answer=0;
