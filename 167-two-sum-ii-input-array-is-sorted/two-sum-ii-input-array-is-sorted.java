@@ -1,22 +1,38 @@
 class Solution {
-    public int[] twoSum(int[] nums, int target) {
-       int first =0;
-        int last =nums.length-1;
-        for(int index =1;index<=nums.length;index+=1)
+    public int[] twoSum(int[] numbers, int target) {
+        int[]answer = new int[2];
+        int left =0;int right= numbers.length-1;
+        while(left<right)
         {
-            if(nums[first]+nums[last]==target)
+            int sum = numbers[left]+numbers[right];
+            if(sum==target)
             {
-                return new int[]{first+1,last+1};
+                answer[0]=left+1;
+                answer[1]=right+1;
+                break;
             }
-            else if(nums[first]+nums[last]<target)
+            else if(sum<target)
             {
-                first+=1;
+                left+=1;
             }
-            else if(nums[first]+nums[last]>target)
+            else if(sum>target)
             {
-                last-=1;
+                right-=1;
             }
         }
-        return new int[]{first+1,last+1};
+        // for(int ind =0;ind<numbers.length-1;ind+=1)
+        // {
+        //     for(int jind = ind+1;jind<numbers.length;jind+=1)
+        //     {
+        //         int sum =numbers[ind]+numbers[jind];
+        //         if(sum==target)
+        //         {
+        //             answer[0]=ind+1;
+        //             answer[1]=jind+1;
+        //         }
+        //     }
+        // }
+        return answer;
+        
     }
 }
