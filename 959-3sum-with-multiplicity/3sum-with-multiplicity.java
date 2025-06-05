@@ -15,9 +15,7 @@ class Solution {
             for(int j =i;j<list.size();j+=1)
             {
                 Integer jind = list.get(j);
-               
-             
-                int Kind = target -(ind+jind);
+                int Kind = target - (ind+jind);
                  if(!mpp.containsKey(Kind)) continue;
                    if(Kind<jind) continue;
                    if(mpp.containsKey(Kind))
@@ -45,11 +43,11 @@ class Solution {
                    }
                    result = result % 1000000007;
         
-                }
-               
-                
+                }    
             }
             return (int) result;
+     }
+}
 
         // HashMap<Integer,Integer>mpp = new HashMap<>();
         // int answer=0;
@@ -92,5 +90,3 @@ class Solution {
         // }
         // return answer;
         
-    }
-}
