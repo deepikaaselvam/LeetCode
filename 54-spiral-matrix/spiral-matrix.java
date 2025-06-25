@@ -27,7 +27,7 @@ class Solution {
                 }
                 top-=1;
             }
-            System.out.println();
+            // System.out.println();
             if(right<=left)
             {
                 for(int ind =top;ind>=bottom;ind-=1)
