@@ -1,43 +1,59 @@
-import java.util.Stack;
 class Solution {
-    public int evalRPN(String[] tokens) {
-        Stack<String>st = new Stack<>();
-        for(int i=0;i<tokens.length;i++)
+    public int evalRPN(String[] s) {
+        Stack<Integer>stt = new Stack<>();
+        for(int ind =0;ind<s.length;ind+=1)
         {
-            if(!tokens[i].equals("+") && !tokens[i].equals("-") && !tokens[i].equals("*") && !tokens[i].equals("/"))
+            // char ch = s.charAt(ind);
+            if(s[ind].equals("+"))
             {
-                st.push(tokens[i]);
+                if(!stt.isEmpty())
+                {
+                    int second = stt.pop();
+                    int first = stt.pop();
+                    int doManipulation = first+second;
+                    stt.push(doManipulation);
+                }
             }
-            else
+            else if(s[ind].equals("-"))
             {
-                int val1=Integer.parseInt(st.pop());
-                int val2=Integer.parseInt(st.pop());
-                int ans=0;
-                if(tokens[i].equals("+"))
+                 if(!stt.isEmpty())
                 {
-                    ans=val1+val2;
+                    int second = stt.pop();
+                    int first = stt.pop();
+                    int doManipulation = first-second;
+                    stt.push(doManipulation);
                 }
-                else if(tokens[i].equals("-"))
-                {
-                    ans=val2-val1;
 
-                }
-                else if(tokens[i].equals("*"))
-                {
-                    ans=val1*val2;
-                }
-                else
-                {
-                    ans=val2/val1;
-                }
-                String resultPush=String.valueOf(ans);
-                st.push(resultPush);
             }
+            else if(s[ind].equals("*"))
+            {
+                 if(!stt.isEmpty())
+                {
+                    int second = stt.pop();
+                    int first = stt.pop();
+                    int doManipulation = first*second;
+                    stt.push(doManipulation);
+                }
 
+            }
+            else if(s[ind].equals("/"))
+            {
+                 if(!stt.isEmpty())
+                {
+                    int second = stt.pop();
+                    int first = stt.pop();
+                    int doManipulation = first/second;
+                    stt.push(doManipulation);
+                }
 
+            }
+            else{
+                int value = Integer.parseInt(s[ind]);
+                stt.push(value);
+
+            }
         }
-        return Integer.parseInt(st.peek());
-
+        return stt.peek();
         
     }
 }
