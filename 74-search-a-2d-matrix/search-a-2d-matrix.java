@@ -1,27 +1,36 @@
 class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) {
-        int jIndex =0;
-            for(int i=0;i<matrix.length;i++)
-            {
-                int eachRowLength =matrix[i].length;
-                int start = matrix[i][0];
-                int end = matrix[i][eachRowLength-1];
-                if(target>=start && target<=end)
-                    for(int index2=0;index2<matrix[i].length;index2+=1)
-                    {
-                        if(matrix[i][jIndex]==target && start<=end)
-                        {
-                            return true;
-                        }
-                        else {
-                            jIndex+=1;
-                        }
+      private static boolean bSearch(int start,int end,int particularRow,int[][]mat,int target)
+    {
+        while(start<=end)
+        {
+            int mid = start +((end-start)/2);
+            if(mat[particularRow][mid]==target) return true;
+            else if(mat[particularRow][mid]<target) start=mid+1;
+            else end =mid-1;
+        }
+        return false;
+    }
 
-                    
-                    }
-                    }
-
-            return false;
-        
+    public boolean searchMatrix(int[][] mat, int target) {
+        int row=0;
+       while(row<mat.length)
+       {
+           if(mat[row][0]<=target&& mat[row][mat[row].length-1]>=target)
+           {
+            //   for(int jind =0;jind<mat[row].length;jind+=1)
+            //   {
+            //       if(mat[row][jind]==x)
+            //       {
+            //           return true;
+            //       }
+            //   }
+            // int start = mat[row][0];
+            // int end = mat[row][mat[row].length-1];
+            return bSearch(0,mat[row].length-1,row,mat,target);
+           } 
+           row++;
+           
+       }
+       return false;
     }
 }
