@@ -16,8 +16,18 @@ class Solution {
        while(row<mat.length)
        {
            if(mat[row][0]<=target&& mat[row][mat[row].length-1]>=target)
-           {
-            //   for(int jind =0;jind<mat[row].length;jind+=1)
+               return bSearch(0,mat[row].length-1,row,mat,target);
+        
+           row++;
+           
+       }
+       return false;
+    }
+}
+
+
+
+//   for(int jind =0;jind<mat[row].length;jind+=1)
             //   {
             //       if(mat[row][jind]==x)
             //       {
@@ -26,11 +36,3 @@ class Solution {
             //   }
             // int start = mat[row][0];
             // int end = mat[row][mat[row].length-1];
-            return bSearch(0,mat[row].length-1,row,mat,target);
-           } 
-           row++;
-           
-       }
-       return false;
-    }
-}
