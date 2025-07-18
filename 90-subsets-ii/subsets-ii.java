@@ -5,7 +5,7 @@ class Solution {
         {
             if( !finalAns.contains(temporary))
             {
-                // Collections.sort(new ArrayList<>(temporary));
+              
                 finalAns.add(new ArrayList<>(temporary));
                 // System.out.println(finalAns);
             }
