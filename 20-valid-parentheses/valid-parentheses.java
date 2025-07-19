@@ -15,27 +15,22 @@ class Solution {
             {
                 if(!st.isEmpty() && st.peek()=='(')
                 {
-                   
-                    st.pop();
-                    
+                    st.pop();    
                 }
                 else{
                     return false;
-                }
-           
+                }     
             }
             else if(ch==']')
             {
                 if(!st.isEmpty() && st.peek()=='[')
                 {
                     st.pop();
-                    
                 }
                 else{
-                    st.push(ch);
+                    // st.push(ch);
                     return false;
-
-                }
+                 }
                 
             }
             else if(ch=='}')
