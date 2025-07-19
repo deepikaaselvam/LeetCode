@@ -1,34 +1,69 @@
 class Solution {
-    public boolean isValid(String qns) {
-         Stack<Character>st = new Stack<>();
-        int i=0;
-        char[]characterArray = qns.toCharArray();
-        while(i<qns.length())
+    public boolean isValid(String s) {
+        if(s.length()==1)
         {
-            if(characterArray[i]=='(' || characterArray[i]=='[' || characterArray[i]=='{')
-            {
-                st.push(qns.charAt(i));
-            }
-            else 
-            {
-                if(st.isEmpty()) //means that..We found the Closing bracket without the opening Bracket ->return false into it
-                {
-                    return false;
-                }
-                char c=st.pop();
-                if(( characterArray[i]==')'&&c!='(' )||(characterArray[i]==']'&& c!='[' )||(characterArray[i]=='}' &&c!='{'))
-                {
-                    return false;
-                }
-
-            }
-            i++;
+            return false;
         }
+       Stack<Character>st = new Stack<>();
+        for(int ind =0;ind<s.length();ind+=1)
+        {
+            char ch = s.charAt(ind);
+            if(ch=='(') st.push(ch);
+            else if(ch=='[') st.push(ch);
+            else if(ch=='{')st.push(ch);
+            else if(ch==')')
+            {
+                if(!st.isEmpty() && st.peek()=='(')
+                {
+                   
+                    st.pop();
+                    
+                }
+                else{
+                    return false;
+                }
+           
+            }
+            else if(ch==']')
+            {
+                if(!st.isEmpty() && st.peek()=='[')
+                {
+                    st.pop();
+                    
+                }
+                else{
+                    st.push(ch);
+                    return false;
 
-        
-        
+                }
+                
+            }
+            else if(ch=='}')
+            {
+                 if(!st.isEmpty() && st.peek()=='{')
+                {
+                    st.pop();
+                    
+                }
+                else {return false;}
+               
+            }
+           
+        }
         return st.isEmpty();
-        
         
     }
 }
+
+
+
+
+
+
+
+ // if(ch=='(') open++;
+            // else if(ch==')') open--;
+            // else if(ch=='[') square++;
+            // else if(ch==']') square--;
+            // else if(ch=='{') curly++;
+            // else curly--;
