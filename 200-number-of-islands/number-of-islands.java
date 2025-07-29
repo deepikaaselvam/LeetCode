@@ -14,6 +14,7 @@ class Solution {
     }
     public int numIslands(char[][] grid) {
         int cnt=0;
+        int value=0;
         for(int ind =0;ind<grid.length;ind++)
         {
             for(int jind =0;jind<grid[ind].length;jind+=1)
@@ -21,7 +22,7 @@ class Solution {
                 if(grid[ind][jind]=='1')
                 {
                     cnt++;
-                    findOutIslands(grid,ind,jind);
+                  findOutIslands(grid,ind,jind);
                 }
             }
         }
