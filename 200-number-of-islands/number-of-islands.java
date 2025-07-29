@@ -1,7 +1,7 @@
 class Solution {
     private static int findOutIslands(char[][]grid,int ind,int jind)
     {
-        if(ind<0||jind<0||ind==grid.length||jind==grid[0].length||grid[ind][jind]=='0')
+        if(ind<0||jind<0||ind==grid.length||jind==grid[ind].length||grid[ind][jind]=='0')
         {
             return 0;
         }
