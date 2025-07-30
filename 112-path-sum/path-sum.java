@@ -14,23 +14,36 @@
  * }
  */
 class Solution {
+    private static boolean pathSumCalc(TreeNode root, int targetSum,int original)
+    {
+       if(root==null)
+        {
+            return false;
+        } 
+       if(root.left==null && root.right==null)
+       {
+        int val = targetSum -root.val;
+        if(val==0)
+        {
+            return true;
+        }
+        return false;
+       } 
+        
+     
+      
+        targetSum =targetSum -root.val;
+        return pathSumCalc(root.left,targetSum,original)||pathSumCalc(root.right,targetSum,original);
+
+    }
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if(root==null)
         {
             return false;
         }
-        if(root.left ==null && root.right==null){
-            // return value == targetSum;
-                if(root.val==targetSum)
-                {
-                    return true;
-                }
-        }
-         int rem = targetSum -root.val;
-    
-       
-        return hasPathSum(root.left,rem) || hasPathSum(root.right,rem);
-      
+        int original =targetSum;
+        return pathSumCalc(root,targetSum,original);
         
+       
     }
 }
