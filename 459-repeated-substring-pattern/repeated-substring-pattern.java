@@ -1,6 +1,12 @@
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
-        int total =s.length();
+      String doubled =s+s  ;
+      return doubled.substring(1,doubled.length()-1).contains(s);
+        
+    }
+}
+/*
+int total =s.length();
         for(int ind =0;ind<s.length()-1;ind+=1)
         {
             String tempString = s.substring(0,ind+1);
@@ -20,7 +26,4 @@ class Solution {
             }
         }
         return false;
-        
-        
-    }
-}
+        */
