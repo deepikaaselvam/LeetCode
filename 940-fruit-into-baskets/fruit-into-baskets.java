@@ -12,7 +12,7 @@ class Solution {
             }
             else{
                
-                while(mpp.size()>2)
+                if(mpp.size()>2)
                 {
                     int value = mpp.get(basket[l]);
                     mpp.put(basket[l],value-1);
