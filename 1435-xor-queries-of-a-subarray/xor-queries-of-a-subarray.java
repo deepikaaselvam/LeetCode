@@ -11,7 +11,9 @@ class Solution {
             int ind2 = queries[ind][1];
            if(ind1==0){
             answer[ind] = prefixXOR[ind2];
-           }else{
+           }else if(ind1 ==ind2){
+            answer[ind]=arr[ind1];
+            }else{
             answer[ind]= prefixXOR[ind2] ^ prefixXOR[ind1 -1];
            }
         }
