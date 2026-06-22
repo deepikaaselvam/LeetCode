@@ -6,8 +6,7 @@ class Solution {
             else if(ch == 'a') aCount++;
             else if(ch == 'l') lCount++;
             else if(ch == 'o') oCount++;
-            else if(ch == 'n') nCount++;
-            
+            else if(ch == 'n') nCount++;     
         }
         return Math.min(Math.min(bCount, aCount),
                 Math.min(Math.min(lCount/2, oCount/2), nCount)); 
