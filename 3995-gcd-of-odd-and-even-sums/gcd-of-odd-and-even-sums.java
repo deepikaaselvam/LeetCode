@@ -9,7 +9,6 @@ class Solution {
             oddCountSum = remainder;   
          }
          return evenCountSum;
-        //  return n;
     }
   
 }
