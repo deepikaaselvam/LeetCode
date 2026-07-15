@@ -5,7 +5,6 @@ class Solution {
          int remainder = 0;
          while(oddCountSum!= 0){
             remainder = evenCountSum%oddCountSum;
-            System.out.println("Remainder : "+remainder);
             evenCountSum = oddCountSum;
             oddCountSum = remainder;   
          }
