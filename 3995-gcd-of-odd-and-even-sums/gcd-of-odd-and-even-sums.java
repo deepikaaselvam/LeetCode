@@ -1,6 +1,6 @@
 class Solution {
     public int gcdOfOddEvenSums(int n) {
-        int evenCount =0;
+        /*int evenCount =0;
         int evenCountSum =0;
         int oddCount =-1;
         int oddCountSum =0;
@@ -10,7 +10,6 @@ class Solution {
             evenCount+=2;
             evenCountSum += evenCount;
         }
-        System.out.println(oddCountSum +" "+ evenCountSum);
         int largest =0;int smallest =0;
          if(oddCountSum>evenCountSum){
           largest = oddCountSum;
@@ -29,7 +28,8 @@ class Solution {
             largest = smallest;
             smallest = remainder;   
          }
-         return largest;
+         return largest;*/
+         return n;
     }
   
 }
