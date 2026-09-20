@@ -6,7 +6,6 @@ class Solution {
             char ch = s.charAt(ind-1);
             ans = ((int)('z' - ch) + 1) * ind;
             finalAns += ans;
-            System.out.println(finalAns);
         }
         return finalAns;
         
